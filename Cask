@@ -16,3 +16,4 @@
 (depends-on "yasnippet")
 (depends-on "flyspell")
 (depends-on "web-mode")
+(depends-on "window-number")

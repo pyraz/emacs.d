@@ -1,5 +1,9 @@
-;; Navigate between windows using Alt-1, Alt-2, Shift-left, shift-up, shift-right
-(windmove-default-keybindings)
+;; Enable window-number mode, C-x C-j 1-9 to select window
+(require 'window-number)
+(window-number-mode)
+
+;; Disable menu bar
+(menu-bar-mode -1)
 
 ;; Enable copy and pasting from clipboard
 (setq x-select-enable-clipboard t)
