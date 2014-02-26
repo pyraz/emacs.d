@@ -5,6 +5,9 @@
 ;; Disable menu bar
 (menu-bar-mode -1)
 
+;; Enable ample color scheme
+(load-theme 'ample t)
+
 ;; Enable copy and pasting from clipboard
 (setq x-select-enable-clipboard t)
 
