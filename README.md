@@ -4,6 +4,37 @@
 
 #Navigation
 
+Keybinding           | Description
+---------------------|------------
+<kbd>C-a</kbd>	| Move to beginning of line
+<kbd>M-m</kbd>	| Move to the first non-whitespace character on the line
+<kbd>C-e</kbd>	| Move to end of line
+<kbd>C-f</kbd>	| Move forward one character
+<kbd>C-b</kbd>	| Move backward one character
+<kbd>M-f</kbd>	| Move forward one word (I use this a lot)
+<kbd>M-b</kbd>	| Move backward one word (I use this a lot, too)
+<kbd>C-s</kbd>	| Regex search for text in the current buffer and move to it. Hit C-s again to move to the next match
+<kbd>C-r</kbd>	| Same as above, but search in reverse
+<kbd>M-<</kbd>	| Move to beginning of buffer
+<kbd>M-></kbd>	| Move to end of buffer
+<kbd>M-g g</kbd>	| Go to line
+
+
+#Text Manipulation
+
+Keybinding           | Description
+---------------------|------------
+<kbd>C-spc</kbd> |	Set mark (for selecting stuff)
+<kbd>C-w</kbd>	|	Kill region
+<kbd>M-w</kbd>	| 	Copy region to kill ring
+<kbd>C-y</kbd>	|	Yank (paste)
+<kbd>M-y</kbd>	|	Cycle through kill ring after yanking
+<kbd>M-d</kbd>	|	Kill word
+<kbd>C-k</kbd>	|	Kill line
+<kbd>Tab</kbd>  |	Ident line
+<kbd>C-j</kbd>  |	New line indent (enter followed by 'tab')
+
+#Help
 
 #Window Layout
 
@@ -18,7 +49,7 @@ Keybinding           | Description
 
 Keybinding           | Description
 ---------------------|-------------
-<kbd>C-x C-j 1</kbd> | Switch to first window (or window a number provided)
+<kbd>C-x C-j 1</kbd> | Switch to first window (or window number provided)
 
 ## Projectile
 

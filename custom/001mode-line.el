@@ -20,8 +20,6 @@
     " "
     ;; show the line number and column number (no 'All', 'Top', 'Bottom', etc.)
     (:propertize " %l:%c " face (:background "black" :foreground "white" :weight light))
-    ;; show the modes
-    (:propertize "%m" 'face (:background "black" :foreground "white"))
 ))
     
   
