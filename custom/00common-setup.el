@@ -6,7 +6,10 @@
 (menu-bar-mode -1)
 
 ;; Enable ample color scheme
-(load-theme 'ample t)
+(load-theme 'solarized-dark t)
+
+;; Turn on line numbers
+(global-linum-mode t)
 
 ;; Enable copy and pasting from clipboard
 (setq x-select-enable-clipboard t)
