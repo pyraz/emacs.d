@@ -4,6 +4,7 @@
 (add-to-list 'load-path "~/.emacs.d/custom")
 
 (load "00common-setup.el")
+(load "001mode-line.el")
 (load "01ruby.el")
 (load "02clojure.el")
 (load "03org.el")

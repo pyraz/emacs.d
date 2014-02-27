@@ -1,4 +1,24 @@
-### Interactive Commands
+### Keyboard Shortucts
+
+## Basic Emacs Shortcuts
+
+#Navigation
+
+
+#Window Layout
+
+Keybinding           | Description
+---------------------|------------
+<kbd>C-x 1</kbd>     | Make the current window full screen
+<kbd>C-x 2</kbd>     | Split the current window horizontally 
+<kbd>C-x 3</kbd>     | Split the current window vertically 
+
+
+## Window Number
+
+Keybinding           | Description
+---------------------|-------------
+<kbd>C-x C-j 1</kbd> | Switch to first window (or window a number provided)
 
 ## Projectile
 
