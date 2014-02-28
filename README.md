@@ -4,19 +4,16 @@
 
 #Navigation
 
-Keybinding           | Description
----------------------|------------
-<kbd>C-a</kbd>	| Move to beginning of line
+Keybinding           | Description | Keybinding           | Description
+---------------------|--------------------------------------------------
+<kbd>C-a</kbd>	| Move to beginning of line | <kbd>C-e</kbd>	| Move to end of line
 <kbd>M-m</kbd>	| Move to the first non-whitespace character on the line
-<kbd>C-e</kbd>	| Move to end of line
-<kbd>C-f</kbd>	| Move forward one character
-<kbd>C-b</kbd>	| Move backward one character
-<kbd>M-f</kbd>	| Move forward one word (I use this a lot)
-<kbd>M-b</kbd>	| Move backward one word (I use this a lot, too)
-<kbd>C-s</kbd>	| Regex search for text in the current buffer and move to it. Hit C-s again to move to the next match
-<kbd>C-r</kbd>	| Same as above, but search in reverse
-<kbd>M-<</kbd>	| Move to beginning of buffer
-<kbd>M-></kbd>	| Move to end of buffer
+<kbd>C-f</kbd>	| Move forward one character | <kbd>C-b</kbd>	| Move backward one character
+<kbd>M-f</kbd>	| Move forward one word | <kbd>M-b</kbd>	| Move backward one word
+<kbd>M-a</kbd>	| Move backward by sentence | <kbd>M-e</kbd> | Move forward by sentence
+<kbd>M-{</kbd>  | Move backward by paragraph | <kbd>M-}</kbd> | Move forward by paragraph
+<kbd>C-s</kbd>	| Regex search for text in the current buffer and move to it. Hit C-s again to move to the next match | <kbd>C-r</kbd>	| Same as C-s, but search in reverse
+<kbd>M-<</kbd>	| Move to beginning of buffer | <kbd>M-></kbd>	| Move to end of buffer
 <kbd>M-g g</kbd>	| Go to line
 
 

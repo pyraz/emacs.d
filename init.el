@@ -12,6 +12,7 @@
 (load "05web-mode.el")
 (load "06highlight-indentation.el")
 (load "07projectile.el")
+(load "08markdown.el")
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
