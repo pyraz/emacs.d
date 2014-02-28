@@ -23,6 +23,11 @@
 	(sp-local-pair "<" ">")
 	(sp-local-pair "<%" "%>"))
 
+
+;; Rainbow Delimiters in all programming modes
+(require 'rainbow-delimiters)
+(add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
+
 ;; Flyspell configuration
 (require 'flyspell)
 (setq flyspell-issue-message-flg nil)

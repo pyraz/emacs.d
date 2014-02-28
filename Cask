@@ -16,6 +16,8 @@
 (depends-on "rainbow-mode")
 (depends-on "robe")
 (depends-on "smartparens")
+(depends-on "twilight-theme")
 (depends-on "web-mode")
 (depends-on "window-number")
 (depends-on "yasnippet")
+(depends-on "rainbow-delimiters")
