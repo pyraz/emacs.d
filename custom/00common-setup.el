@@ -6,13 +6,31 @@
 (menu-bar-mode -1)
 
 ;; Enable ample color scheme
-(load-theme 'solarized-dark t)
+(load-theme 'cyberpunk t)
 
 ;; Turn on line numbers
 (global-linum-mode t)
 
 ;; Enable copy and pasting from clipboard
 (setq x-select-enable-clipboard t)
+
+;; Expand Region
+(require 'expand-region)
+(global-set-key [(meta up)] 'er/expand-region)
+(global-set-key (kbd "M-=") 'er/expand-region)
+(global-set-key [(meta down)] 'er/contract-region)
+(pending-delete-mode t)
+
+;; Multiple Cursors
+(require 'multiple-cursors)
+(global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
+(global-set-key (kbd "C-c >") 'mc/mark-next-like-this)
+(global-set-key (kbd "C-c <") 'mc/mark-previous-like-this)
+(global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
+
+;; Undo Tree
+(require 'undo-tree)
+(global-undo-tree-mode)
 
 ;; Smartparens configuration
 (require 'smartparens-config)
