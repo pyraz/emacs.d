@@ -23,23 +23,24 @@
 
 ;; Multiple Cursors
 (require 'multiple-cursors)
-(global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
-(global-set-key (kbd "C-c >") 'mc/mark-next-like-this)
-(global-set-key (kbd "C-c <") 'mc/mark-previous-like-this)
-(global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
+(global-set-key (kbd "C-c 8") 'mc/edit-lines)
+(global-set-key (kbd "C-.") 'mc/mark-next-like-this)
+(global-set-key (kbd "C-,") 'mc/mark-previous-like-this)
+(global-set-key (kbd "C-c C-,") 'mc/mark-all-like-this)
 
 ;; Undo Tree
 (require 'undo-tree)
 (global-undo-tree-mode)
 
+;; This appears to be breaking multiple-cursors
 ;; Smartparens configuration
-(require 'smartparens-config)
-(require 'smartparens-ruby)
-(smartparens-global-mode)
-(show-smartparens-global-mode t)
-(sp-with-modes '(rhtml-mode)
-	(sp-local-pair "<" ">")
-	(sp-local-pair "<%" "%>"))
+;;(require 'smartparens-config)
+;;(require 'smartparens-ruby)
+;;(smartparens-global-mode)
+;;(show-smartparens-global-mode t)
+;;(sp-with-modes '(rhtml-mode)
+;;	(sp-local-pair "<" ">")
+;;	(sp-local-pair "<%" "%>"))
 
 
 ;; Rainbow Delimiters in all programming modes
