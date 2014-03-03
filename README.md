@@ -1,12 +1,7 @@
 # Installation
 
 1. Install emacs
-  * Mac
-
-```Shell
-brew install emacs --use-git-head --cocoa --srgb
-```
-
+  * Mac: `brew install emacs --use-git-head --cocoa --srgb`
 2. Bundle install
 
 
