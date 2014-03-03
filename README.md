@@ -1,9 +1,12 @@
 # Installation
 
-## Mac
+* Get emacs
+* * Mac
+
 ```Shell
 brew install emacs --use-git-head --cocoa --srgb
-````
+```
+
 
 
 # Keyboard Shortucts
