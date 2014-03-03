@@ -1,7 +1,9 @@
 # Installation
 
 ## Mac
+```Shell
 brew install emacs --use-git-head --cocoa --srgb
+````
 
 
 # Keyboard Shortucts
@@ -11,7 +13,7 @@ brew install emacs --use-git-head --cocoa --srgb
 ### Navigation
 
 Keybinding           | Description | Keybinding           | Description
----------------------|--------------------------------------------------
+---------------------|-------------|----------------------|---------------
 <kbd>C-a</kbd>	| Move to beginning of line | <kbd>C-e</kbd>	| Move to end of line
 <kbd>M-m</kbd>	| Move to the first non-whitespace character on the line
 <kbd>C-f</kbd>	| Move forward one character | <kbd>C-b</kbd>	| Move backward one character
