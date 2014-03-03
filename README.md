@@ -1,8 +1,14 @@
-### Keyboard Shortucts
+# Installation
+
+## Mac
+brew install emacs --use-git-head --cocoa --srgb
+
+
+# Keyboard Shortucts
 
 ## Basic Emacs Shortcuts
 
-#Navigation
+### Navigation
 
 Keybinding           | Description | Keybinding           | Description
 ---------------------|--------------------------------------------------
@@ -17,7 +23,7 @@ Keybinding           | Description | Keybinding           | Description
 <kbd>M-g g</kbd>	| Go to line
 
 
-#Text Manipulation
+### Text Manipulation
 
 Keybinding           | Description
 ---------------------|------------
@@ -31,7 +37,7 @@ Keybinding           | Description
 <kbd>Tab</kbd>  |	Ident line
 <kbd>C-j</kbd>  |	New line indent (enter followed by 'tab')
 
-#Help
+### Help
 
 #Window Layout
 
@@ -42,13 +48,13 @@ Keybinding           | Description
 <kbd>C-x 3</kbd>     | Split the current window vertically 
 
 
-## Window Number
+### Window Number
 
 Keybinding           | Description
 ---------------------|-------------
 <kbd>C-x C-j 1</kbd> | Switch to first window (or window number provided)
 
-## Projectile
+### Projectile
 
 Here's a list of the interactive Emacs Lisp functions, provided by projectile:
 
@@ -106,7 +112,7 @@ add to your Emacs config:
 Note that the `Super` keybindings are not usable in Windows. Emacs
 Prelude already adds those extra keybindings.
 
-## Projectile-Rails
+### Projectile-Rails
 
 
 Command                                  | Keybinding                                 | Description
