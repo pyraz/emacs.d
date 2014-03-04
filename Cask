@@ -11,6 +11,7 @@
 (depends-on "flyspell")
 (depends-on "grizzl")
 (depends-on "highlight-indentation")
+(depends-on "iy-go-to-char")
 (depends-on "markdown-mode")
 (depends-on "multiple-cursors")
 (depends-on "pallet")

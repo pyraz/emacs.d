@@ -5,7 +5,10 @@
 ;; Disable menu bar
 (menu-bar-mode -1)
 
-;; Enable ample color scheme
+;; Window size to left half of screen
+(setq initial-frame-alist '((top . 0) (left . 0) (width . 85) (height . 90)))
+
+;; Enable Cyberpunk color scheme
 (load-theme 'cyberpunk t)
 
 ;; Turn on line numbers
@@ -27,6 +30,15 @@
 (global-set-key (kbd "C-.") 'mc/mark-next-like-this)
 (global-set-key (kbd "C-,") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C-c C-,") 'mc/mark-all-like-this)
+
+;; iy-go-to-char
+(require 'iy-go-to-char)
+;; work better with multiple cursors
+(add-to-list 'mc/cursor-specific-vars 'iy-go-to-char-start-pos)
+(global-set-key (kbd "C-c f") 'iy-go-to-char)
+(global-set-key (kbd "C-c F") 'iy-go-to-char-backward)
+(global-set-key (kbd "C-c ;") 'iy-go-to-or-up-to-continue)
+(global-set-key (kbd "C-c ,") 'iy-go-to-or-up-to-continue-backward)
 
 ;; Undo Tree
 (require 'undo-tree)
