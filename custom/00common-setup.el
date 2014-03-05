@@ -1,7 +1,3 @@
-;; Enable window-number mode, C-x C-j 1-9 to select window
-(require 'window-number)
-(window-number-mode)
-
 ;; Disable menu bar
 (menu-bar-mode -1)
 
@@ -16,6 +12,9 @@
 
 ;; Enable copy and pasting from clipboard
 (setq x-select-enable-clipboard t)
+
+;; Hippie Expand
+(global-set-key (kbd "M-/") 'hippie-expand)
 
 ;; Expand Region
 (require 'expand-region)
